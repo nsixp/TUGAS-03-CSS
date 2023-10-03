@@ -1,0 +1,64 @@
+a:link {
+    color: midnightblue;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: darkcyan;
+}
+
+.button {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    color: #FFFF;
+    text-align: center;
+    font-size: 28px;
+}
+
+.button:hover {
+    background-color: orange;
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+}
+
+tr {
+    border-collapse: collapse;
+    font-family: verdana;
+}
+
+td:nth-child(1) {
+    width: 50px;
+}
+
+td {
+    width: 100px;
+    border-bottom: 1px solid white;
+}
+
+tbody tr:nth-child(1), tr:nth-child(3) {
+    background-color: #81cfe0;
+    color: white;
+}
+
+tbody tr:nth-child(2), tr:nth-child(4) {
+    background-color: #81CFE0;
+    color: white;
+}
+
+tbody tr:hover {
+    color: black;
+}
